@@ -64,29 +64,3 @@ export const setup = async (network: Network, account: string, SK:string) => {
     }
 
 }
-
-// (async () => {
-
-//     const {
-//         factory,
-//         keyStore,
-//         keyPair,
-//         signer,
-//         provider
-//     } = await setup(
-//         "testnet",
-//         "dimabrook-testnet.testnet",
-//         SK!
-//     );
-
-//     console.log("factory",factory);
-//     console.log("keyStore",keyStore);
-//     console.log("keyPair",keyPair);
-//     console.log("signer",signer);
-//     console.log("provider",provider);
-    
-//     exit(0);
-// })().catch(e => {
-//     console.error(e);
-//     exit(1);
-// })

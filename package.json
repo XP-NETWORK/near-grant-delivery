@@ -1,0 +1,20 @@
+{
+  "name": "near_grant_delivery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/XP-NETWORK/near-grant-delivery.git",
+  "author": "Dima Brook <dima@xp.network>",
+  "license": "MIT",
+  "scripts": {
+    "setup":"tsc && node ./dist/setup.js",
+    "mint":"tsc && node ./dist/mint.js",
+    "listing":"tsc && node ./dist/listing.js",
+    "approve":"tsc && node ./dist/approve.js",
+    "transfer":"tsc && node ./dist/transfer.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "near-api-js": "^1.1.0",
+    "xp.network": "git+https://github.com/xp-network/xpjs#bleeding-edge"
+  }
+}

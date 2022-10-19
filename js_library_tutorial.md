@@ -123,5 +123,6 @@ Receipts: 8EvMjNGSx9EWCWrPv9e1tFi9paeVJzrB8hD9myKxFg3G, FYvpG9EjUdcGMwUC2jmoGaAX
 ✨  Done in 22.04s.
 ```
 
-On-Chain transaction: https://explorer.testnet.near.org/transactions/6KY3Exi4RPMtLGxkASrhLhs121y75uLikPT4WME3v2Zn
+NEAR On-Chain transaction: https://explorer.testnet.near.org/transactions/6KY3Exi4RPMtLGxkASrhLhs121y75uLikPT4WME3v2Zn
 
+BSC On-Chain transaction: https://testnet.bscscan.com/tx/0xee185a23d23ce46a733c8b3dbbc3382d811b399ac9607890a07c998682703945

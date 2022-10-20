@@ -10,7 +10,8 @@
     "mint":"tsc && node ./dist/mint.js",
     "listing":"tsc && node ./dist/listing.js",
     "approve":"tsc && node ./dist/approve.js",
-    "transfer":"tsc && node ./dist/transfer.js"
+    "transfer":"tsc && node ./dist/transfer.js",
+    "estimate":"tsc && node ./dist/estimate.js"
   },
   "dependencies": {
     "dotenv": "^16.0.3",

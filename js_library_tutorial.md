@@ -126,3 +126,27 @@ Receipts: 8EvMjNGSx9EWCWrPv9e1tFi9paeVJzrB8hD9myKxFg3G, FYvpG9EjUdcGMwUC2jmoGaAX
 NEAR On-Chain transaction: https://explorer.testnet.near.org/transactions/6KY3Exi4RPMtLGxkASrhLhs121y75uLikPT4WME3v2Zn
 
 BSC On-Chain transaction: https://testnet.bscscan.com/tx/0xee185a23d23ce46a733c8b3dbbc3382d811b399ac9607890a07c998682703945
+
+## 4. TX fee estimation
+
+To estimate the TX fee on the chain of destination in the local tokens run in the terminal:
+
+```bash
+yarn estimate
+```
+
+Example output:
+```bash
+$ tsc && node ./dist/estimate.js
+Found 1 NFTs
+Selected: {
+  native: { tokenId: 'NFT#{1837228}', contract: 'usernftminter.testnet' },
+  collectionIdent: 'usernftminter.testnet',
+  uri: 'https://meta.polkamon.com/meta?id=10001852306'
+}
+estimation 48443411
+✨  Done in 9.86s.
+```
+
+Code snippet: `./src/estimate.ts`
+

@@ -24,9 +24,9 @@ This document outlines the Grant delivery milestones.
 |-|
 | 1. We will provide both [inline documentation](https://github.com/XP-NETWORK/xp-near-integration/search?q=%2F%2F%2F) of the code and a [basic tutorial](./js_library_tutorial.md) that can interact with the deployed smart contracts and backend service.<br/>2. The code will have proper [tests](https://github.com/XP-NETWORK/xp-near-integration/tree/main/tests) coverage 85% to ensure functionality and robustness. In the guide, we will describe how to run these tests preparing for auditing<br/>3. Add Near to the testnet [nft-indexer](https://github.com/XP-NETWORK/nft-index/tree/nft-index-testnet/src/nft-list/model/near)<br/>4. Add NEAR to the bridge JS Library ([testnet](https://github.com/XP-NETWORK/xpjs/search?q=NEAR))<br/>5. Deploying the [bridge contract](https://explorer.testnet.near.org/accounts/xp_bridge_1.testnet) & [NFT standard contract](https://testnet.nearblocks.io/address/xp_nft_1.testnet#transaction) and testing the contracts in the testnet environment|
 
-# TODO:
-
 ## `Milestone 4` — Integrating into the Live Bridge
 | Specification |
 |-|
-| 1. Developing validation logic relevant for the NEAR part of the bridge<br/>2. Adding NEAR to the Bridge NFT-Indexer<br/>3. Integrating TX fee estimation<br/>4. Plugging NEAR in the heartbeat<br/>5. Integrating with a NEAR rpc node<br/>6. Integrating NEAR in the bridge UI<br/>7. Deploying smart contracts<br/>8. Adding NEAR to the bridge JS library<br/>9. Adding access to NEAR from the REST API<br/>10. Adding NEAR to the bridge widget|
+| 1. Developed the [validation logic](./Milestone4.md#1-validation-logic) relevant for the NEAR part of the bridge<br/>2. Adding NEAR to the Bridge [NFT-Indexer](./Milestone4.md#2-nft-indexer)<br/>3. Integrating [TX fee estimation](./Milestone4.md#3-fee-estimation)<br/>4. Plugging NEAR in the [heartbeat](./Milestone4.md#4-heartbeat)<br/>5. Integrating with a NEAR [rpc nodes](./Milestone4.md#5-near-rpc-nodes)<br/>6. Integrating NEAR in the [bridge UI](./Milestone4.md#6-near-in-the-bridge-ui)<br/>7. Deployed [smart contracts](./Milestone4.md#7-deployed-smart-contract)<br/>8. Adding NEAR to the bridge [JS library](./Milestone4.md#8-near-in-xpnetwork-javascript-library)<br/>9. Adding access to NEAR from the [REST API](./js_library_tutorial.md)<br/>10. Adding NEAR to the [bridge widget](./Milestone4.md#10-bridge-widget)|
+
+Bonus: Contracts for wrapped NFTs on NEAR support royalties: https://www.mintbase.xyz/contract/s_polychain_bsc.near/token/0x254310d45

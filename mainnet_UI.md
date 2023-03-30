@@ -48,3 +48,26 @@ https://polygonscan.com/tx/0xf2d44db2888c2a1650567c856f1344011758e8a20ef6c337e08
 Wrapped NFT: https://staging-nft.xp.network/w/30992054695599099560468151779
 
 image: https://ipfs.io/ipfs/bafybeiei5itwp4m2np7ixgsqahakm45wkfa7gefdfeklebjr4uiyw2uclm
+
+Native NEAR on an EVM Marketplace: https://rarible.com/token/polygon/0x54024a9351b7ad68921914942f776489e71c467e:30992054695599099560468151779?tab=properties
+
+![Arrived on Polygon](assets/6.Arrived_UI.png)
+
+## 4. Transferring Foreign NFTs to NEAR
+
+Transferrd from BSC: https://bscscan.com/tx/0xededf8aadaf58ceee100dceb37b4bc9545eced80c19d86f18ccd5f014e0fc47d
+
+Arrived on NEAR:[ https://explorer.near.org/transactions/FoW1ty5X8JVC7HDBjUed2XDPZCYjqxnF2WLRBdxWkmVH](https://explorer.near.org/transactions/C9jQHA93mFDHNXD9PM6H8Wy7nJKgprLcdqV6K3hz5Em1)
+
+Another transaction - (checking royalties):
+
+BSC: https://bscscan.com/tx/0x89c8bdcf86f23f2f08db45fb2a44b7bff09038c1405f839519713123d4da74e7
+
+Near: https://explorer.near.org/transactions/6ofc2ufUhc5vdHEukpqgoyYxbfD5m1rq5P5FpLrwzLJn
+
+```json
+"perpetual_royalties": {
+    "b6494959598c96cee8e4888034c38dac50f7acbc22ee6849a9f849ab695237df"
+    : 250
+}
+```
